@@ -1,4 +1,5 @@
 const mix = require('laravel-mix');
+const tailwindcss = require('tailwindcss');
 
 /*
  |--------------------------------------------------------------------------
@@ -12,7 +13,7 @@ const mix = require('laravel-mix');
  */
 
 
-// Backend css
+// Backend Bootstrap css
 mix.sass(
     'resources/css/backend/scss/sb-admin-2.scss',
     'public/css/backend/all.css'
@@ -46,3 +47,8 @@ mix.scripts([
     'resources/js/worldmap/xSROMap.js',
     'resources/js/worldmap/main.js',
 ], 'public/js/worldmap.min.js');
+
+// Frontend Tailwind css
+mix.postCss("resources/css/frontend/tailwind.css", "css/app.css", [
+    tailwindcss("resources/config/tailwind.config.js"),
+]).version();

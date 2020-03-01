@@ -6,6 +6,7 @@ Feel free to create isses or contribute to that project. If you have any questio
 #### Discord
 We now have a Discord [server](https://discord.gg/MNjY4By) for questions, feedback or chit-chat.
 
+If you want to help me, you can buy a [Coffee](https://www.buymeacoffee.com/Mi0v2sB) for me.
 <hr>
 
 ### Downloading
@@ -71,7 +72,7 @@ We now have a Discord [server](https://discord.gg/MNjY4By) for questions, feedba
     ```
     
     
-### Chaning Javascript / CSS styling
+### Change Javascript / CSS styling
 
 1. Install npm
     ```bash
@@ -96,11 +97,13 @@ We now have a Discord [server](https://discord.gg/MNjY4By) for questions, feedba
 
 If you want some help, check the [Laravel Compiling Assets (Mix)](https://laravel.com/docs/6.x/mix)
 
+### Fontend styling config
+1. Open the `resources/config/tailwind.config.js` file to see your tailwind default config.
+2. You can also check the `resources/css/frontend/app.scss` file to set your own styling for the frontend.
 
-Hopefully you are good to go with that. 
 <hr>
 
-If you want to help me, you can buy a [Coffee](https://www.buymeacoffee.com/Mi0v2sB) for me.     
+##### Hopefully you are good to go with that. 
 
 License
 ===

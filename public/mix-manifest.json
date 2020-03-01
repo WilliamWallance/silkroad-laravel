@@ -1,6 +1,7 @@
 {
-    "/css/backend/all.css": "/css/backend/all.css",
-    "/js/backend/all.js": "/js/backend/all.js",
-    "/css/leaflet.css": "/css/leaflet.css",
-    "/js/worldmap.min.js": "/js/worldmap.min.js"
+    "/css/backend/all.css": "/css/backend/all.css?id=ce8dbf639906753e04a4",
+    "/css/app.css": "/css/app.css?id=8ed34374295c3984891d",
+    "/js/backend/all.js": "/js/backend/all.js?id=0d0503b0c42a97da1559",
+    "/css/leaflet.css": "/css/leaflet.css?id=6abcb4df3677c4f592f5",
+    "/js/worldmap.min.js": "/js/worldmap.min.js?id=ce49bbe0c78b95cbcb0c"
 }
